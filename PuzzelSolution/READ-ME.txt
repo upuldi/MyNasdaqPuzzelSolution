@@ -1,0 +1,19 @@
+Answer when n = 100 and c= 10 : 513946235090696089113
+Answer when n = 1000000 and c= 200 : 4876116127
+
+Time complexity is O(n) (Linear)
+
+Execution Times
+
+With Parallel Processing :
+
+ N = 1000000 and c = 200 ==> 2781  ms
+ N = 10000000 and c = 200 ==> 24351  ms
+
+
+Without Parallel processing
+
+N = 1000000 and c = 200 ==> 5454  ms
+N = 10000000 and c = 200 ==> 54099  ms
+
+After considering abouve it seems parallel processing is a good approach when the n reach very high number.
